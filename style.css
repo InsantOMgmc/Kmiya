@@ -75,6 +75,7 @@ a {
 }
 
 .brand-mark {
+    width: 80px;
     height: 54px;
     border-radius: 18px;
     background: var(--accent-soft);
@@ -88,8 +89,9 @@ a {
 .brand-mark img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
+
 
 .brand-text {
     display: flex;
